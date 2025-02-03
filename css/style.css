@@ -30,6 +30,7 @@ header {
 .top-bar > a {
   font-size: 25px;
   font-weight: 600;
+  scroll-behavior: smooth;
 }
 nav {
   display: flex;
@@ -87,6 +88,25 @@ button:hover {
   opacity: 0.9;
 }
 
+#about-us {
+  text-align: center;
+  padding: 200px;
+}
+#about-us > section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#about-us p {
+  max-width: 45ch;
+  text-align: left;
+  background-color: blanchedalmond;
+  padding: 20px;
+  border-radius: 20px;
+  line-height: 2;
+  font-size: 17px;
+}
+
 @media (max-width: 767px) {
   nav {
     justify-content: space-between;
@@ -109,6 +129,9 @@ button:hover {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 40px;
-    height: 100vh;
+    height: 80vh;
+  }
+  #about-us {
+    padding: 20px;
   }
 }
