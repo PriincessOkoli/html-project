@@ -4,36 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page Project</title>
+    <link rel="stylesheet" href="css/style.css">
+
   </head>
   <body>
     <header>
-      <section class="top-bar">
-        <a href="#">Humble Heart</a>
-        <nav>
-          <a href="#">Home</a>
-          <a href="#">About Us</a>
-          <a href="#">Centres</a>
-          <a href="#">Plans</a>
-          <a href="#">Testimonials</a>
-        </nav>
-      </section>
-      <section class="hero-content">
-        <section>
-          <h1>Bend your mind, </br/> inspire <b>Yourself.</b></h1>
-          <p>
-            Teaching members ASHTANGA YOGA since 1992.
-          </p>
-          <p>
-            Book your first yoga class yourself
-          </p>
-          <button type="button" class="hero-btn" > Book Now </button>
+      <section class="header-container">
+        <section class="top-bar">
+          <a href="#">Humble Heart</a>
+
+          <!-- Hamburger Icon -->
+          <div class="menu-toggle" id="menu-toggle">
+            &#9776; <!-- Unicode for hamburger icon -->
+          </div>
+
+          <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Centres</a>
+            <a href="#">Plans</a>
+          </nav>
         </section>
-        <section>
-          <img src="./assets//images/hero-image.webp" alt="yoga image" />
+        <section class="hero-content">
+          <section>
+            <h1>Bend your mind, </br/> inspire <b>Yourself.</b></h1>
+            <p class="par1">
+              Teaching members ASHTANGA YOGA <br/> since 1992.
+            </p>
+            <p class="par2">
+              Book your first yoga class yourself
+            </p>
+            <button type="button" class="hero-btn" > Book Now </button>
+          </section>
+          <section>
+            <img src="./assets//images/hero-image.webp" alt="yoga image" id="hero-image" />
+          </section>
         </section>
       </section>
     </header>
     <main></main>
     <footer></footer>
   </body>
+  <script src="js/script.js"></script>
 </html>
