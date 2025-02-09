@@ -10,7 +10,7 @@ This project is a **responsive landing page** built using **HTML and CSS**. It f
 
 ## 🚀 **Live Demo**
 
-🔗 [Live Preview](#) *(Add your deployed site link here)*
+🔗 [Live Preview](#) https://html-project-alpha-nine.vercel.app/
 
 ---
 
