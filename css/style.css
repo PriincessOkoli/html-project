@@ -11,37 +11,54 @@ header {
   background-image: url("./../assets/images/background-image.webp");
   background-position: center;
   background-size: cover;
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-top: 40px;
+}
+.h-full {
   height: 100vh;
 }
-.header-container {
+.p-sm {
+  padding: 10px;
+}
+.pl-2xl,
+.pr-2xl {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.pt-xl {
+  padding-top: 40px;
+}
+.mb-sm {
+  margin-bottom: 10px;
+}
+.m-auto {
   margin: auto;
+}
+.max-w-70 {
   max-width: 70rem;
 }
-.top-bar {
+.w-40 {
+  width: 400px;
+}
+.flex {
+  display: flex;
+}
+.display-none {
+  display: none;
+}
+.flex-evenly {
+  justify-content: space-evenly;
+}
+.flex-center-between {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  margin-bottom: 10px;
+}
+.text-xl {
+  font-size: 25px;
 }
 .top-bar > a {
   font-size: 25px;
   font-weight: 600;
   scroll-behavior: smooth;
-}
-nav {
-  display: flex;
-  justify-content: space-evenly;
-  width: 400px;
-}
-
-.menu-toggle {
-  display: none;
-  font-size: 2rem;
-  cursor: pointer;
 }
 
 a {
@@ -49,16 +66,11 @@ a {
   color: white;
 }
 .menu-toggle {
-  display: none;
   font-size: 2rem;
   cursor: pointer;
-  color: #fff;
 }
-
-.hero-content {
-  display: flex;
+.text-white {
   color: #fff;
-  justify-content: space-between;
 }
 h1 {
   font-size: 60px;
@@ -88,50 +100,26 @@ button:hover {
   opacity: 0.9;
 }
 
-#about-us {
-  text-align: center;
-  padding: 200px;
-}
-#about-us > section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-#about-us p {
-  max-width: 45ch;
-  text-align: left;
-  background-color: blanchedalmond;
-  padding: 20px;
-  border-radius: 20px;
-  line-height: 2;
-  font-size: 17px;
-}
 
 @media (max-width: 767px) {
-  nav {
-    justify-content: space-between;
-    width: fit-content;
-    display: none;
-  }
-  .menu-toggle {
-    display: block; /* Show hamburger on small screens */
-  }
-
-  #hero-image {
-    width: 2px;
-  }
   h1 {
     font-size: 35px;
     font-weight: 700;
     margin-top: 100px;
   }
-  header {
+
+  .sm-hidden {
+    display: none;
+  }
+  
+  .sm-block {
+    display: block;
+  }
+  .md-pl-md,
+  .md-pr-md {
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 40px;
-    height: 80vh;
   }
-  #about-us {
-    padding: 20px;
-  }
+
+
 }
