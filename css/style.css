@@ -71,10 +71,6 @@ header {
 .top-bar.sticky > nav {
   margin-right: 60px;
 }
-main {
-  height: 100vh;
-  background-color: pink;
-}
 a {
   text-decoration: none;
   color: white;
@@ -113,6 +109,40 @@ button {
 button:hover {
   opacity: 0.9;
 }
+.about-us {
+  text-align: center;
+  padding: 200px;
+}
+.about-us > section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.about-us p {
+  max-width: 45ch;
+  text-align: left;
+  background-color: blanchedalmond;
+  padding: 20px;
+  border-radius: 20px;
+  line-height: 2;
+  font-size: 17px;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  color: rgb(57, 54, 54);
+  border: 2px solid rgb(196, 171, 31);
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.back-to-top:hover {
+  background-color: #666;
+}
 
 @media (max-width: 767px) {
   h1 {
@@ -132,5 +162,8 @@ button:hover {
   .md-pr-md {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .about-us {
+    padding: 20px;
   }
 }
